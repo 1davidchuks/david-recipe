@@ -1,0 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #fff7f0;
+  color: #333;
+}
+
+header, footer {
+  background-color: #f76c6c;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.ingredients, .instructions {
+  background-color: #ffeedb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 45%;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .ingredients, .instructions {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
