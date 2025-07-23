@@ -35,3 +35,23 @@ header {
 section {
   margin-bottom: 30px;
 }
+
+h2 {
+  border-bottom: 1px solid #ffd7a5;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  color: #ffd7a5;
+}
+
+ul, ol {
+  padding-left: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3b0a0a;
+  color: #f8dfb4;
+}
